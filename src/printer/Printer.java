@@ -6,5 +6,7 @@ public interface Printer {
 
     void  print(List<String> result);
 
-     void print (double result);
+    default void print(double result) {
+
+    }
 }
